@@ -7,8 +7,8 @@ O módulo principal (Diretorio) implementa dois módulos de cache L1 com 2 bloco
 
 As máquinas de estados implementadas são representadas pelas figuras 1 (protocolo snooping) e 2 (protocolo diretório). Os dados de entrada para o programa são o comando desejado, qual núcleo que deve realizar o comando e um clock.
 
-![Protocolo Snooping](https://media.cheggcdn.com/media%2Fbad%2Fbad5ab11-6a94-473e-855e-16f03579eadf%2Fphp0bLywp.png =300)
-![Protocolo Diretório](https://slideplayer.com/slide/5868851/19/images/11/Write-Invalidate+Write-Back+Cache+Coherence+Protocol.jpg =300)
+<img src="https://media.cheggcdn.com/media%2Fbad%2Fbad5ab11-6a94-473e-855e-16f03579eadf%2Fphp0bLywp.png" alt="Snooping" width="200"/>
+<img src="https://slideplayer.com/slide/5868851/19/images/11/Write-Invalidate+Write-Back+Cache+Coherence+Protocol.jpg" alt="Diretório" width="200"/>
 
 Como saída o módulo fornece o que ocorreu no bloco (hit ou miss) e a mensagem descrevendo o que deve ser comunicado às caches.
 
